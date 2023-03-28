@@ -1,0 +1,38 @@
+.btnList {
+    width: 100%;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    width: 110px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    border: transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px blueviolet;
+    transition: transform 250ms ease-out, box-shadow 250ms ease-out;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    transform: translate(0px, 3px);
+    box-shadow: 4px 4px 9px #201e20;
+  }
+  
+  .good {
+    composes: btn;
+    background-color: blueviolet;
+  }
+  
+  .neutral {
+    composes: btn;
+    background-color: blueviolet;
+  }
+  
+  .bad {
+    composes: btn;
+    background-color: blueviolet;
+  }

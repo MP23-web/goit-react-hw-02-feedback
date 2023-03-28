@@ -1,0 +1,16 @@
+.titles {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #efe7de;
+  }
+  
+  .feedBack,
+  .stats {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+  }
